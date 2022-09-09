@@ -1,0 +1,54 @@
+{
+  "app": "dashboard",
+  "requestId": "Q143",
+  "timezone": "browser",
+  "panelId": 14,
+  "dashboardId": 3,
+  "range": {
+    "from": "2022-08-30T01:22:23.848Z",
+    "to": "2022-08-31T01:22:23.848Z",
+    "raw": {
+      "from": "now-24h",
+      "to": "now"
+    }
+  },
+  "timeInfo": "",
+  "interval": "2m",
+  "intervalMs": 120000,
+  "targets": [
+    {
+      "refId": "A",
+      "datasource": {
+        "uid": "g8VsBsW4k",
+        "type": "rostek-rostek-line-chart-json-api"
+      },
+      "cacheDurationSeconds": 300,
+      "method": "GET",
+      "queryParams": "",
+      "urlPath": "",
+      "fields": [
+        {
+          "jsonPath": ""
+        }
+      ],
+      "constant": 6.5,
+      "queryText": "$device_id"
+    }
+  ],
+  "maxDataPoints": 865,
+  "scopedVars": {
+    "__interval": {
+      "text": "2m",
+      "value": "2m"
+    },
+    "__interval_ms": {
+      "text": "120000",
+      "value": 120000
+    }
+  },
+  "startTime": 1661908985555,
+  "rangeRaw": {
+    "from": "now-24h",
+    "to": "now"
+  }
+}
